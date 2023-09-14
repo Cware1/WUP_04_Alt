@@ -93,4 +93,4 @@ After running the multiple comparisons test, the graph shows that the zero confi
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-First I used my helper file Numerical~Cat.rmd to help me build a box plot.
+First I plotted a graphical descriptive
