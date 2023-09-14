@@ -53,7 +53,6 @@ basicCN + geom_boxplot()
 By looking at the above graph, there is no obvious difference between the different RACE scores.The WHITE RACE box is bigger, however we have no proof as to why.
 
 
-
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -61,6 +60,8 @@ By looking at the above graph, there is no obvious difference between the differ
 ```{r}
 favstats(WORDSUM~RACE,data=MYdata)
 ```
+
+By looking at the Means you can see that the BLACK and the WHITE RACES are close to each other. However, the OTHER RACE is different.
 
 
 ## Inferential Results
