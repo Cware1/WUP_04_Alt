@@ -63,6 +63,8 @@ favstats(WORDSUM~RACE,data=MYdata)
 
 By looking at the Means you can see that the BLACK and the WHITE RACES are close to each other. However, the OTHER RACE is different.
 
+Due to it being smaller then BLACK and WHITE RACES it does show a difference.
+
 
 ## Inferential Results
 
