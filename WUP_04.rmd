@@ -79,19 +79,15 @@ From the test we ran, we got a low p-value less then .05. Because the results wa
 
 Thus, we must run another test due to the low p-value.
 
+
+
 ```{r}
 #we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
 par(mar = c(3, 8.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
-Per the final plot,we can see there is no difference at zero between the OTHER-BLACK race and the WHITE-OTHER race.
-
-The plot does show a difference between the White race and the OTHER race
-
-White and other are the only races that appear to be different per the chart.
-
-However, there was no difference between White and Black due to zero being present
+After running the multiple comparisons test, the graph shows that the zero confidence levels intersect with the OTHER-BLACK and the WHITE-BLACK races. Meaning, there is no difference in average scores on WORDSUM test between each pair of RACES.That said, the zero confidence level does not intersect with the WHITE-OTHER, which means that there is a difference in average scores between these two RACES and that is the cause for the low p-value.
 
 # Discussion and Conclusion
 
