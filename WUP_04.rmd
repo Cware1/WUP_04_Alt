@@ -50,7 +50,7 @@ basicCN <- ggplot(MYdata,aes(x=RACE,y=WORDSUM))
 basicCN + geom_boxplot()
 ```
 
-
+By looking at the above graph, there is no obvious difference between the different RACE scores.The WHITE RACE box is bigger, however we have no proof as to why.
 
 
 
